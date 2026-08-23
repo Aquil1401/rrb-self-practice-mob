@@ -1,0 +1,42 @@
+# Android Build
+/build/
+**/build/
+*.apk
+*.aar
+*.jks
+*.keystore
+
+# Gradle
+.gradle/
+/gradle-app.setting
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Secrets & Local Config
+.env
+local.properties
+google-services.json
+*.xml.secret
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS / Misc
+.DS_Store
+Thumbs.db
+*.log
+*.temp
+.history/
+
+# Old Flutter leftovers (cleaning up)
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+.metadata
